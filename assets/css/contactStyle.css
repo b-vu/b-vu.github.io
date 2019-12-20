@@ -124,6 +124,15 @@ input[type=submit] {
     min-width: 960px;
 }
 
+.copyright{
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    margin: 0 auto;
+}
+
 html{
     position: relative;
     min-height: 100%;
