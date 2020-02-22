@@ -1,0 +1,63 @@
+body {
+    background: url(../images/swirl_pattern.png); /* Background pattern from Toptal Subtle Patterns */
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+.name{
+    font-family: 'Fredoka One', cursive;
+    font-size: 28px;
+    padding: 20px;
+}
+
+.nav-link{
+    font-family: 'Fredoka One', cursive;
+}
+
+.fontStyle{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.title{
+    font-family: 'Fredoka One', cursive;
+}
+
+.navbar-light{
+    background-color: salmon;
+    border-bottom: 2px solid black;
+}
+
+.navbar{
+    margin-bottom: 40px;
+}
+
+.biopic{
+    height: 300px;
+    width: 300px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+
+.container{
+    background-color: salmon;
+    padding: 25px;
+    border: 2px solid black;
+    margin-bottom: 40px;
+}
+
+.footer{
+    height: 40px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: auto;
+    border-top: 2px solid black;
+}

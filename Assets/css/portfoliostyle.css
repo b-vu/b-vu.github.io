@@ -1,0 +1,90 @@
+body {
+    background: url(../images/swirl_pattern.png); /* Background pattern from Toptal Subtle Patterns */
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+.name{
+    font-family: 'Fredoka One', cursive;
+    font-size: 28px;
+    padding: 20px;
+}
+
+.nav-link{
+    font-family: 'Fredoka One', cursive;
+}
+
+.fontStyle{
+    font-family: 'Fredoka One', cursive;
+}
+
+.navbar-light{
+    background-color: salmon;
+    border-bottom: 2px solid black;
+}
+
+.navbar{
+    margin-bottom: 40px;
+}
+
+.container{
+    background-color: salmon;
+    padding: 25px;
+    border: 2px solid black;
+    margin-bottom: 40px;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.card-body{
+    background-color: rgb(60, 40, 173);
+    border-top: 2px solid black;
+}
+
+.card{
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.card-img-top{
+    height: 200px;
+    border-radius: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.footer{
+    height: 40px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: auto;
+    border-top: 2px solid black;
+}
+
+@media screen and (max-width: 768px){
+
+.row{
+    justify-content: center;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+}
+}
