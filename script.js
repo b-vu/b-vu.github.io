@@ -17,7 +17,7 @@ const printAbout = name =>{
 
     switch(name){
         case "word-guess":
-            website("Country Guessing Game", "word-guess", "https://scoobyvuu.github.io/Word-Guess/", "https://github.com/scoobyvuu/Word-Guess");
+            website("Country Guessing Game", "word-guess", "https://scoobyvuu.github.io/word-guess/", "https://github.com/scoobyvuu/word-guess");
             break;
 
         case "weather":
@@ -29,7 +29,7 @@ const printAbout = name =>{
             break;
         
         case "password":
-            website("Password Generator", "password", "https://scoobyvuu.github.io/Homework-3/", "https://github.com/scoobyvuu/Homework-3");
+            website("Password Generator", "password", "https://scoobyvuu.github.io/password-generator/", "https://github.com/scoobyvuu/password-generator");
             break;
 
         case "floor":
@@ -37,7 +37,7 @@ const printAbout = name =>{
             break;
 
         case "quiz":
-            website("Formula 1 Quiz", "quiz", "https://scoobyvuu.github.io/Quiz/", "https://github.com/scoobyvuu/Quiz");
+            website("Formula 1 Quiz", "quiz", "https://scoobyvuu.github.io/quiz/", "https://github.com/scoobyvuu/quiz");
     }
 }
 
