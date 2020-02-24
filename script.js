@@ -4,7 +4,7 @@ portfolio.addEventListener("click", event => {
     event.preventDefault();
     let element = event.target;
 
-    if(element.matches(".card-img-top") || element.matches(".card-text")){
+    if(element.matches(".card-img-top") || element.matches(".card-text") || element.matches(".card-body")){
         let name = element.getAttribute("data-name");
         printAbout(name);
     }
@@ -66,7 +66,7 @@ const website = (title, image, url, githubURL) => {
 
     const link = document.createElement("a");
     link.setAttribute("href", url);
-    link.setAttribute("style", "color:darkblue; font-size:28px;");
+    link.setAttribute("style", "color:rgb(32,32,32); font-size:28px; font-weight:bold");
     link.innerHTML = "Website";
     div.appendChild(link);
     link.addEventListener("click", () => window.location.href = url);
@@ -76,7 +76,7 @@ const website = (title, image, url, githubURL) => {
 
     const link2 = document.createElement("a");
     link2.setAttribute("href", githubURL);
-    link2.setAttribute("style", "color:darkblue; font-size:28px");
+    link2.setAttribute("style", "color:rgb(32,32,32); font-size:28px; font-weight:bold");
     link2.innerHTML = "GitHub Repository";
     div.appendChild(link2);
     link2.addEventListener("click", () => window.location.href = githubURL);
