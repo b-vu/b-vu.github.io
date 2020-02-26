@@ -33,7 +33,7 @@ const printAbout = name =>{
             break;
 
         case "floor":
-            website("Floor Planner", "floor", "https://kilomaps.web.app/", "https://github.com/Kiananaik/Test-Project1");
+            website("Floor Planner", "floor", "https://kilomaps.web.app/", "https://github.com/scoobyvuu/Test-Project1");
             break;
 
         case "quiz":
@@ -60,7 +60,7 @@ const website = (title, image, url, githubURL) => {
 
     const screenshot = document.createElement("img");
     screenshot.setAttribute("src", "Assets/images/" + image + "-screenshot.png");
-    screenshot.setAttribute("alt", "Country Guessing Game");
+    screenshot.setAttribute("alt", title);
     screenshot.setAttribute("style", "width:100%; margin-bottom:20px");
     screenshotLink.appendChild(screenshot);
 
