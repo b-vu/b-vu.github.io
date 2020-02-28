@@ -33,7 +33,7 @@ const printAbout = name =>{
             break;
 
         case "floor":
-            website("Floor Planner", "floor", "https://kilomaps.web.app/", "https://github.com/b-vu/Test-Project1");
+            website("Floor Planner", "floor", "https://kilomaps.web.app/", "https://github.com/b-vu/kiloMaps");
             break;
 
         case "quiz":
