@@ -17,27 +17,27 @@ const printAbout = name =>{
 
     switch(name){
         case "word-guess":
-            website("Country Guessing Game", "word-guess", "https://scoobyvuu.github.io/word-guess/", "https://github.com/scoobyvuu/word-guess");
+            website("Country Guessing Game", "word-guess", "https://b-vu.github.io/word-guess/", "https://github.com/b-vu/word-guess");
             break;
 
         case "weather":
-            website("Weather Dashboard", "weather", "https://scoobyvuu.github.io/weather-dashboard/", "https://github.com/scoobyvuu/weather-dashboard");
+            website("Weather Dashboard", "weather", "https://b-vu.github.io/weather-dashboard/", "https://github.com/b-vu/weather-dashboard");
             break;
 
         case "planner":
-            website("Workday Planner", "planner", "https://scoobyvuu.github.io/planner/", "https://github.com/scoobyvuu/planner");
+            website("Workday Planner", "planner", "https://b-vu.github.io/planner/", "https://github.com/b-vu/planner");
             break;
         
         case "password":
-            website("Password Generator", "password", "https://scoobyvuu.github.io/password-generator/", "https://github.com/scoobyvuu/password-generator");
+            website("Password Generator", "password", "https://b-vu.github.io/password-generator/", "https://github.com/b-vu/password-generator");
             break;
 
         case "floor":
-            website("Floor Planner", "floor", "https://kilomaps.web.app/", "https://github.com/scoobyvuu/Test-Project1");
+            website("Floor Planner", "floor", "https://kilomaps.web.app/", "https://github.com/b-vu/Test-Project1");
             break;
 
         case "quiz":
-            website("Formula 1 Quiz", "quiz", "https://scoobyvuu.github.io/quiz/", "https://github.com/scoobyvuu/quiz");
+            website("Formula 1 Quiz", "quiz", "https://b-vu.github.io/quiz/", "https://github.com/b-vu/quiz");
     }
 }
 
