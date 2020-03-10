@@ -46,7 +46,7 @@ const website = (title, image, url, githubURL) => {
     header.innerHTML = title;
 
     const div = document.createElement("div");
-    div.setAttribute("class", "col-12 col-md-12 col-lg-12");
+    div.setAttribute("class", "col-4 col-md-8 col-lg-12");
     div.setAttribute("style", "text-align:center");
     portfolio.appendChild(div);
 
