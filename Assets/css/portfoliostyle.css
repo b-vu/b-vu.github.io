@@ -1,5 +1,5 @@
 body {
-    background: url(../images/swirl_pattern.png); /* Background pattern from Toptal Subtle Patterns */
+    background: url(../images/grey_wash_wall.png); /* Background pattern from Toptal Subtle Patterns */
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -21,10 +21,15 @@ html{
 
 .fontStyle{
     font-family: 'Fredoka One', cursive;
+    color: rgb(223, 223, 223);
+}
+
+#font1, #font2, #font3, #font4, #font5, #font6{
+    color: rgb(223, 223, 223);
 }
 
 .navbar-light{
-    background-color: salmon;
+    background-color: rgb(30, 57, 90);
     border-bottom: 2px solid black;
 }
 
@@ -33,7 +38,7 @@ html{
 }
 
 .container{
-    background-color: salmon;
+    background-color: rgb(30, 57, 90);
     padding: 25px;
     border: 2px solid black;
     margin-bottom: 40px;
@@ -42,18 +47,21 @@ html{
 p{
     font-family: 'Nunito Sans', sans-serif;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 24px;
 }
 
 .card-body{
-    background-color: rgb(33, 14, 109);
-    border-top: 2px solid black;
+    background-color: rgb(185, 185, 185);
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
 }
 
 .card{
     border: 2px solid black;
-    margin-bottom: 20px;
+    border-radius: 0;
 }
 
 .card-img-top{
@@ -63,14 +71,14 @@ p{
 
 a:hover{
     /* text-decoration: none; */
-    color:rgb(32,32,32);
+    color: black;
 }
 
 .footer{
     height: 40px;
-    background-color: gray;
+    background-color: rgb(30, 57, 90);
     text-align: center;
-    color: white;
+    color: rgb(223, 223, 223);
     font-family: 'Nunito Sans', sans-serif;
     font-size: 12px;
     padding: 10px;
